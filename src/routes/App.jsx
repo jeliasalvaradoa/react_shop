@@ -4,7 +4,7 @@ import '@styles/global.css'
 import Layout from '@containers/Layout';
 import Login from '@pages/Login';
 import RecoveryPassword from '@pages/RecoveryPassword';
-import Home from '../pages/Home';
+import Home from '@pages/Home';
 import SendEmail from '@pages/SendEmail';
 import NewPassword from '@pages/NewPassword';
 import MyAccount from '@pages/MyAccount';
@@ -19,7 +19,7 @@ const App = () => {
     const initialState = useInitialState();
     return (
         <AppContext.Provider value = { initialState }>
-        <BrowserRouter>
+        <BrowserRouter basename="/react_shop">
             <Layout>
                 <Routes>
                     <Route exact path="/" element={<Home />} />
