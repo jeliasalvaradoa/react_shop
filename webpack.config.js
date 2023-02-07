@@ -9,7 +9,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js',
-        publicPath: './'
+        publicPath: '/'
     },
     mode: 'development',
     resolve: {
@@ -21,7 +21,7 @@ module.exports = {
             '@pages': path.resolve(__dirname, 'src/pages/'),
             '@routes': path.resolve(__dirname, 'src/routes'),
             '@styles': path.resolve(__dirname, 'src/styles'),
-            '@icons': path.resolve(__dirname, '.src/assets/icons/'),
+            '@icons': path.resolve(__dirname, 'src/assets/icons/'),
             '@logos': path.resolve(__dirname, 'src/assets/logos/'),
             '@context': path.resolve(__dirname, 'src/context'),
             '@hooks': path.resolve(__dirname, 'src/hooks')
