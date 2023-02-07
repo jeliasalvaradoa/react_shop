@@ -10,30 +10,30 @@ const MobileMenu = () => {
           <a href="#">CATEGORIES</a>
         </li>
         <li>
-          <a href="./">All</a>
+          <a href="/">All</a>
         </li>
         <li>
-          <a href="./clothes">Clothes</a>
+          <a href="/clothes">Clothes</a>
         </li>
         <li>
-          <a href="./electronics">Electronics</a>
+          <a href="/electronics">Electronics</a>
         </li>
         <li>
-          <a href="./furnitures">Furnitures</a>
+          <a href="/furnitures">Furnitures</a>
         </li>
         <li>
-          <a href="./toys">Toys</a>
+          <a href="/toys">Toys</a>
         </li>
         <li>
-          <a href="./others">Others</a>
+          <a href="/others">Others</a>
         </li>
       </ul>
       <ul>
         <li>
-          <a href="./orders">My orders</a>
+          <a href="/orders">My orders</a>
         </li>
         <li>
-          <a href="./account">My account</a>
+          <a href="/account">My account</a>
         </li>
       </ul>
       <ul>
