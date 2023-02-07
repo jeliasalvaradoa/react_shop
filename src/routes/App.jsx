@@ -1,6 +1,6 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { HashRouter } from `react-router-dom`;
+import {  HashRouter, Routes, Route } from 'react-router-dom';
+//import { HashRouter } from `react-router-dom`;
 import '@styles/global.css'
 import Layout from '@containers/Layout';
 import Login from '@pages/Login';
