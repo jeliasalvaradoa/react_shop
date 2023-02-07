@@ -1,0 +1,12 @@
+/** antes de empezar a tarabajar debes crear este archivo
+*configurarlo
+*/
+{
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+     "plugins":[
+      "@babel/plugin-transform-runtime"
+     ]
+  }
