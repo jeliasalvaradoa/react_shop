@@ -6,12 +6,12 @@ const MyAccount = () => {
 		<div className="MyAccount">
 			<div className="MyAccount-container">
 				<h1 className="title">My account</h1>
-				<form action="/" className="form">
+				<form action="#" className="form">
 					<div>
 						<label for="name" className="label">Name</label>
-						<p className="value">Camila Yokoo</p>
+						<p className="value">José Alvarado</p>
 						<label for="email" className="label">Email</label>
-						<p className="value">camilayokoo@gmail.com</p>
+						<p className="value">josealvarado@gmail.com</p>
 						<label for="password" className="label">Password</label>
 						<p className="value">*********</p>
 					</div>
