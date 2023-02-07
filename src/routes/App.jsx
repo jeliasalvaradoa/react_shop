@@ -20,7 +20,7 @@ const App = () => {
     const initialState = useInitialState();
     return (
         <AppContext.Provider value = { initialState }>
-        <HashRouter basename="/react_shop">
+        <HashRouter >
             <Layout>
                 <Routes>
                     <Route exact path="/" element={<Home />} />
