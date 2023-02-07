@@ -24,8 +24,8 @@ const App = () => {
             <Layout>
                 <Routes>
                     <Route exact path="/" element={<Home />} />
-                    <Route exact path="/#/clothes" element={<Home categoryId = {1}/>} />
-                    <Route exact path="/#/electronics" element={<Home categoryId = {2}/>} />
+                    <Route exact path="./#/clothes" element={<Home categoryId = {1}/>} />
+                    <Route exact path="./#/electronics" element={<Home categoryId = {2}/>} />
                     <Route exact path="/#/furnitures" element={<Home categoryId = {3}/>} />
                     <Route exact path="/#/toys" element={<Home categoryId = {4}/>} />
                     <Route exact path="/#/others" element={<Home categoryId = {5}/>} />
